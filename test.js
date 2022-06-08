@@ -4,6 +4,14 @@ function supremeIsChecked() {
     document.getElementById("tuna").disabled = true;
     document.getElementById("duck").disabled = true;
     document.getElementById("sausage").disabled = true;
+    document.getElementById("oyster").disabled = false;
+    document.getElementById("salmon").disabled = false;
+    document.getElementById("ham").disabled = false;
+    document.getElementById("bacon").disabled = false;
+    document.getElementById("lobster").disabled = false;
+    document.getElementById("broccoli").disabled = false;
+    document.getElementById("onions").disabled = false;
+    document.getElementById("zucchini").disabled = false;
   }
 }
 
@@ -15,6 +23,12 @@ function margaritaIsChecked() {
     document.getElementById("bacon").disabled = true;
     document.getElementById("duck").disabled = true;
     document.getElementById("sausage").disabled = true;
+    document.getElementById("avocado").disabled = false;
+    document.getElementById("tuna").disabled = false;
+    document.getElementById("ham").disabled = false;
+    document.getElementById("broccoli").disabled = false;
+    document.getElementById("onions").disabled = false;
+    document.getElementById("zucchini").disabled = false;
   }
 }
 
@@ -24,6 +38,14 @@ function hawaiIsChecked() {
     document.getElementById("lobster").disabled = true;
     document.getElementById("oyster").disabled = true;
     document.getElementById("salmon").disabled = true;
+    document.getElementById("bacon").disabled = false;
+    document.getElementById("duck").disabled = false;
+    document.getElementById("sausage").disabled = false;
+    document.getElementById("tuna").disabled = false;
+    document.getElementById("ham").disabled = false;
+    document.getElementById("broccoli").disabled = false;
+    document.getElementById("onions").disabled = false;
+    document.getElementById("zucchini").disabled = false;
   }
 }
 
