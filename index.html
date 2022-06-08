@@ -25,7 +25,7 @@
                   <h5 class="card-title text-left">MARGARITA</h5>
                   <p class="card-text">$8</p>
                   <div style="text-align: center">
-                    <input type="radio" id="name" name="pizza" value="margarita" />
+                    <input type="radio" id="margarita" name="pizza" value="margarita" onclick="margaritaIsChecked()"/>
                   </div>
                 </div>
               </div>
@@ -38,7 +38,7 @@
                   <h5 class="card-title text-left">SUPREME</h5>
                   <p class="card-text">$10</p>
                   <div style="text-align: center">
-                    <input type="radio" id="name" name="pizza" value="supreme" />
+                    <input type="radio" id="supreme" name="pizza" value="supreme" onclick="supremeIsChecked()"/>
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@
                   <h5 class="card-title text-left">HAWAI</h5>
                   <p class="card-text">$12</p>
                   <div style="text-align: center">
-                    <input type="radio" id="name" name="pizza" value="hawai" />
+                    <input type="radio" id="hawai" name="pizza" value="hawai" onclick="hawaiIsChecked()"/>
                   </div>
                 </div>
               </div>
@@ -82,33 +82,33 @@
         <h2>Toppings</h2>
         <div class="row">
           <div class="col-2">
-            <input type="checkbox" name="topping" value="avocado" />
+            <input type="checkbox" id="avocado" name="topping" value="avocado" />
             <label for="avocado"> Avocado</label><br />
-            <input type="checkbox" name="topping" value="broccoli" />
+            <input type="checkbox" id="broccoli" name="topping" value="broccoli" />
             <label for="broccoli"> Broccoli</label><br />
-            <input type="checkbox" name="topping" value="Onions" />
+            <input type="checkbox" id="onions" name="topping" value="onions" />
             <label for="Onions"> Onions</label><br />
-            <input type="checkbox" name="topping" value="zucchini" />
+            <input type="checkbox" id="zucchini" name="topping" value="zucchini" />
             <label for="zucchini"> Zucchini</label><br />
           </div>
           <div class="col-2">
-            <input type="checkbox" name="topping" value="lobster" />
+            <input type="checkbox" id="lobster" name="topping" value="lobster" />
             <label for="lobster"> Lobster</label><br />
-            <input type="checkbox" name="topping" value="oyster" />
+            <input type="checkbox" id="oyster" name="topping" value="oyster" />
             <label for="oyster"> Oyster</label><br />
-            <input type="checkbox" name="topping" value="salmon" />
+            <input type="checkbox" id="salmon" name="topping" value="salmon" />
             <label for="salmon"> Salmon</label><br />
-            <input type="checkbox" name="topping" value="tuna" />
+            <input type="checkbox" id="tuna" name="topping" value="tuna" />
             <label for="tuna"> Tuna</label><br />
           </div>
           <div class="col-2">
-            <input type="checkbox" name="topping" value="bacon" />
+            <input type="checkbox" id="bacon" name="topping" value="bacon" />
             <label for="bacon"> Bacon</label><br />
-            <input type="checkbox" name="topping" value="duck" />
+            <input type="checkbox" id="duck" name="topping" value="duck" />
             <label for="duck"> Duck</label><br />
-            <input type="checkbox" name="topping" value="ham" />
+            <input type="checkbox" id="ham" name="topping" value="ham" />
             <label for="ham"> Ham</label><br />
-            <input type="checkbox" name="topping" value="sausage">
+            <input type="checkbox" id="sausage" name="topping" value="sausage">
             <label for="sausage"> Sausage</label><br />
           </div>
         </div>

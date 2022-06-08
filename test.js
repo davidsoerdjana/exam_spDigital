@@ -1,3 +1,32 @@
+function supremeIsChecked() {
+  if (document.getElementById("supreme").checked) {
+    document.getElementById("avocado").disabled = true;
+    document.getElementById("tuna").disabled = true;
+    document.getElementById("duck").disabled = true;
+    document.getElementById("sausage").disabled = true;
+  }
+}
+
+function margaritaIsChecked() {
+  if (document.getElementById("margarita").checked) {
+    document.getElementById("lobster").disabled = true;
+    document.getElementById("oyster").disabled = true;
+    document.getElementById("salmon").disabled = true;
+    document.getElementById("bacon").disabled = true;
+    document.getElementById("duck").disabled = true;
+    document.getElementById("sausage").disabled = true;
+  }
+}
+
+function hawaiIsChecked() {
+  if (document.getElementById("hawai").checked) {
+    document.getElementById("avocado").disabled = true;
+    document.getElementById("lobster").disabled = true;
+    document.getElementById("oyster").disabled = true;
+    document.getElementById("salmon").disabled = true;
+  }
+}
+
 function total() {
   var pizza = document.querySelector('input[name="pizza"]:checked').value;
   var pizzaPrice = 0;
